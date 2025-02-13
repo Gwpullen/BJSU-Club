@@ -6,7 +6,7 @@ Botanical Jupiter Saturness Unicorn Club
 
 ### Project Summary
 
-Brief description of your what your project is about and why you chose that topic.
+For our project, we are doing a website on various figures in mythology. We chose this topic because we each have a fascination with different mythologies from differing cultures and wanted accumulate these stories into one place.
 
 ### Live Link
 
@@ -26,4 +26,4 @@ List any websites that you might reference to influence you styling choices
 
 ### Members & Responsibilities
 
-List all members and their roles
+Grant Pullen - President

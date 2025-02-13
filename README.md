@@ -27,3 +27,5 @@ List any websites that you might reference to influence you styling choices
 ### Members & Responsibilities
 
 Grant Pullen - President
+
+Crystal Stewart - Designer, Scrum Master

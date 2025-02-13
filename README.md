@@ -29,3 +29,5 @@ List any websites that you might reference to influence you styling choices
 Grant Pullen - President
 
 Crystal Stewart - Designer, Scrum Master
+
+Sophie Kobe - Analyst, Architect

@@ -22,7 +22,9 @@ List core webpages and briefly describe the page of them
 
 ### Design Choices
 
-List any websites that you might reference to influence you styling choices
+- https://mythopedia.com/
+- https://www.theoi.com/
+- https://digitalmapsoftheancientworld.com/mythology/greek-mythology/mythical-creatures/
 
 ### Members & Responsibilities
 

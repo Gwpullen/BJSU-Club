@@ -16,7 +16,18 @@ h6,
 p {
   margin-bottom: 16px;
 }
-
+@font-face {
+  font-family: Colonna MT Reg;
+  src: url(./fonts/COLONNA.TTF);
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+ul {
+  list-style-type: none;
+}
 .nav-wrapper {
   height: 100px;
   width: 100%;
@@ -25,13 +36,13 @@ p {
 }
 
 nav {
-  margin: 0 auto;
   height: 64px;
   width: 1280px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   opacity: 1;
+  padding-inline: 3vw;
 }
 
 .wrapper {
@@ -76,24 +87,52 @@ img {
   font-size: 20px;
   padding-left: 22px;
   padding-right: 15px;
-  font-family: "Chap", Tahoma, Arial, Helvetica, sans-serif;
-}
-
-.links {
-  padding-top: 10px;
+  font-family: C;
 }
 .logo {
   text-decoration: none;
   color: white;
   margin-right: 10px;
-  font-size: 30px;
+  font-size: 20px;
   width: 500px;
-  height: 55px;
-  font-family: "Baron Neue", Tahoma, Arial, Helvetica, sans-serif;
+  height: 45px;
 }
-ul.horizontal-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.logo h1 {
+  font-weight: 600;
+  font-family: Colonna MT Reg;
+}
+.nav-main-menu {
   display: flex;
+  color: white;
+}
+.nav-link {
+  padding: 26px 10px;
+  margin-inline: 10px;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: rgb(88, 88, 106);
+}
+
+.nav-link span {
+  margin-right: 5px;
+}
+
+.fa-chevron-down {
+  font-size: 12px;
+  transition: 0.3s;
+}
+.Dropdown:hover .fa-chevron-down {
+  transform: rotate(180deg);
+}
+.Dropdown:hover .nav-link {
+  color: aqua;
+}
+.Dropdown {
+  position: relative;
+}
+.nav-main-menu .Dropdown-content {
+  position: absolute;
+  top: 46px;
+  left: 0;
 }

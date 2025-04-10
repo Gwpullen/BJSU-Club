@@ -47,7 +47,6 @@ nav {
 
 .wrapper {
   width: 100%;
-  background-color: purple;
 }
 .button {
   width: 1300px;
@@ -75,20 +74,12 @@ nav {
   height: 700px;
   padding-bottom: 50px;
 }
-img {
+.callout img {
   width: 1224px;
   height: 654px;
   float: right;
 }
 
-.links a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  padding-left: 22px;
-  padding-right: 15px;
-  font-family: C;
-}
 .logo {
   text-decoration: none;
   color: white;
@@ -108,7 +99,44 @@ img {
   font-size: 25px;
   padding: 10px;
 }
+
 .nav-link {
   margin-inline: 10px;
   transition: 0.3s;
 }
+
+.nav-link:hover {
+  color: rgb(88, 88, 106);
+}
+
+.nav-link span {
+  margin-right: 5px;
+}
+.aboutus {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(black, rgb(31, 31, 115));
+  align-items: left;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.aboutus img {
+  width: 350px;
+  height: 250px;
+}
+.aboutus p {
+  color: white;
+}
+.Grant img {
+  padding-bottom: 15px;
+}
+
+.Crystal img {
+  padding-bottom: 15px;
+}
+
+.Sophie img {
+  padding-bottom: 15px;
+}
+

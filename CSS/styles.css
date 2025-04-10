@@ -117,22 +117,3 @@ img {
 .nav-link span {
   margin-right: 5px;
 }
-
-.fa-chevron-down {
-  font-size: 12px;
-  transition: 0.3s;
-}
-.Dropdown:hover .fa-chevron-down {
-  transform: rotate(180deg);
-}
-.Dropdown:hover .nav-link {
-  color: aqua;
-}
-.Dropdown {
-  position: relative;
-}
-.nav-main-menu .Dropdown-content {
-  position: absolute;
-  top: 46px;
-  left: 0;
-}

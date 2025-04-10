@@ -140,3 +140,27 @@ nav {
   padding-bottom: 15px;
 }
 
+.Ccontent-holder {
+  height: 650px;
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 250px;
+}
+.contact text {
+  width: 100%;
+  background-color: #565676;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.contactinfo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Colonna MT Reg;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 15px;
+}

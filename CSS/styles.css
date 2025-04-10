@@ -57,7 +57,7 @@ nav {
   border-radius: 20px;
 }
 .hero {
-  background-image: linear-gradient(black, rgb(31, 31, 115));
+  background-image: linear-gradient(black, rgb(60, 60, 144));
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,35 +104,11 @@ img {
 .nav-main-menu {
   display: flex;
   color: white;
+  font-family: Colonna MT Reg;
+  font-size: 25px;
+  padding: 10px;
 }
 .nav-link {
-  padding: 26px 10px;
   margin-inline: 10px;
   transition: 0.3s;
-}
-.nav-link:hover {
-  color: rgb(88, 88, 106);
-}
-
-.nav-link span {
-  margin-right: 5px;
-}
-
-.fa-chevron-down {
-  font-size: 12px;
-  transition: 0.3s;
-}
-.Dropdown:hover .fa-chevron-down {
-  transform: rotate(180deg);
-}
-.Dropdown:hover .nav-link {
-  color: aqua;
-}
-.Dropdown {
-  position: relative;
-}
-.nav-main-menu .Dropdown-content {
-  position: absolute;
-  top: 46px;
-  left: 0;
 }

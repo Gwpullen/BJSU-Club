@@ -36,3 +36,12 @@ Grant Pullen - President
 Crystal Stewart - Designer, Scrum Master
 
 Sophie Kobe - Analyst, Architect
+
+Web Pages - Final Update\*
+
+Grant has been working on the content that will go into the Dragon and Sasquatch section of the core webpages.
+Likewise, Crystal is doing the same for the Unicorn and the Phoenix sections.
+They are both doing valuable research that we are including into these portions of our website!
+I (Sophie) have been working on getting a working nav bar as well as formatting the pages so that you are able to navigate around the website easily.
+My job has to be done before they are able to input their found information into the pages.
+We are on track to be done by the end of the week.

@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phoenix</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinalProject210</title>
     <link rel="stylesheet" href="CSS/styles.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="nav-wrapper">
-        <div class="button">
-      <nav>
-        <div class="logo">The Botanical Jupiter Saturness Unicorn Club's Mythological Archive</div>
-        <div class="links">
-            <ul class="horizontal-list">
-          <li><a href="index.html">Home</a></li>
-          </li><a href="about.html">About</a></li>
-          <li>
-            <a href="creatures.html">
-            <select name="dropdownmenu" id="myths">
-                <option value="title">Creatures</option>
-                <option value="creature1">Phoenix</option>
-                <option value="creature2">Unicorn</option>
-                <option value="creature3">Dragon</option>
-                <option value="creature4">Sasquatch</option>
-            </select>
-            </a>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
+      <div class="button">
+        <nav>
+          <div class="logo">
+            <h1>
+              The Botanical Jupiter Saturness Unicorn Club's Mythological
+              Archive
+            </h1>
+          </div>
+          <ul class="nav-main-menu">
+            <li>
+              <a href="index.html" class="nav-link three">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link three">About</a>
+            </li>
+            <li class="Creaturesdropdown">
+              <div class="dropdown">
+                <button class="dropbutton">
+                  <a href="creatures.html" class="nav-link">Creatures</a>
+                </button>
+                <div class="dropdown-content">
+                  <a href="dragon.html">Dragon</a>
+                  <a href="phoenix.html">Phoenix</a>
+                  <a href="sasquatch.html">Sasquatch</a>
+                  <a href="unicorn.html">Unicorn</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link three">Contact</a>
+            </li>
           </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="aboutus">
+        <div class="Grant">
+          <img src="CSS/images/Grant_wizard.jpg" alt="Grant" />
+          <p>grant bio here</p>
         </div>
-      </nav>
-      <h1>Phoenix</h1>
+        <div class="Crystal">
+          <p>crystal bio here</p>
+          <img src="CSS/images/Crystal_witch.jpg" alt="Crystal" />
         </div>
-</body>
+        <div class="Sophie">
+          <img src="CSS/images/Sophie_witch.jpg" alt="Sophie" />
+          <p>sophie bio here</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

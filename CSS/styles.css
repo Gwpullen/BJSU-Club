@@ -132,25 +132,54 @@ nav {
 }
 .aboutus p {
   color: white;
+  padding-left: 50px;
 }
 .Grant img {
   padding-bottom: 15px;
+}
+.Grant {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .Crystal img {
   padding-bottom: 15px;
 }
 
+.Crystal {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .Sophie img {
   padding-bottom: 15px;
 }
 
+.Sophie {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .Ccontent-holder {
-  height: 650px;
-  /* background-color: white; */
+  height: 100%;
+  background-image: linear-gradient(black, rgb(31, 31, 115));
   display: flex;
   justify-content: space-evenly;
   padding-top: 250px;
+}
+.content-contact h1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: Colonna MT Reg;
+  font-size: 30px;
+  width: 600px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 .contact text {
   width: 100%;
@@ -158,15 +187,18 @@ nav {
   position: fixed;
   left: 0;
   bottom: 0;
+  color: white;
 }
 .contactinfo {
   height: 100%;
+  width: 900px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   font-family: Colonna MT Reg;
   font-size: 25px;
   margin: 15px;
+  color: white;
+  justify-content: space-between;
 }
 .message {
   display: flex;
@@ -177,8 +209,20 @@ nav {
   width: 600px;
   text-align: center;
   padding-bottom: 16px;
+  color: white;
 }
 
+.contactbox {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: Colonna MT Reg;
+  font-size: 20px;
+  width: 600px;
+  text-align: left;
+  padding-bottom: 16px;
+  color: white;
+}
 .content-contact img {
   width: 700px;
   height: 700px;
@@ -188,6 +232,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.contactbox button {
+  font-family: Colonna MT Reg;
+  font-size: 20px;
+  width: 100px;
+  text-align: left;
+  color: #23233d;
 }
 
 .Creaturesdropdown {

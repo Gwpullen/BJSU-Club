@@ -43,21 +43,84 @@
         </nav>
       </div>
     </div>
+    <h1>Dragons</h1>
     <div class="wrapper">
       <div class="aboutus">
-        <div class="Grant">
-          <img src="CSS/images/Grant_wizard.jpg" alt="Grant" />
-          <p>grant bio here</p>
+        <div class="dragonone">
+          <img src="CSS/images/dragonone.jpg" alt="dragonone" />
+          <p>
+            Dragons, legendary creatures found in diverse cultures globally,
+            likely originated from a combination of factors. Ancient mythologies
+            first described dragon-like beings, often resembling giant serpents,
+            as seen in Mesopotamian art and literature. Some theories suggest
+            that early humans, with an innate fear of predators like snakes,
+            projected these fears into grander mythical creatures. Fossil
+            discoveries of dinosaurs and large reptiles may have also
+            contributed to the image of dragons. Over time, cultural
+            interpretations shaped dragons into symbols of both chaos and power,
+            evolving into the varied forms we know today.
+          </p>
         </div>
-        <div class="Crystal">
-          <p>crystal bio here</p>
-          <img src="CSS/images/Crystal_witch.jpg" alt="Crystal" />
-        </div>
-        <div class="Sophie">
-          <img src="CSS/images/Sophie_witch.jpg" alt="Sophie" />
-          <p>sophie bio here</p>
+        <div class="dragontwo">
+          <p>
+            Dragons are prominent figures in global media, serving diverse
+            roles. In Western media, they often appear as fearsome,
+            fire-breathing creatures, like Smaug in The Hobbit, symbolizing
+            threats or challenges or hoarding mass treasures. Eastern media
+            frequently portrays them as benevolent, serpentine beings associated
+            with power and good fortune, such as those in Chinese mythology.
+            From fearsome foes to wise allies, dragons capture imaginations
+            across film, literature, and games, embodying a spectrum of symbolic
+            meanings and fantastical elements.
+          </p>
+          <img src="CSS/images/dragontwo.jpg" alt="dragontwo" />
         </div>
       </div>
     </div>
+
+    <div id="dragon-fact-container">
+      <h2>Dragon Fact:</h2>
+      <p id="dragon-fact-text"></p>
+    </div>
+
+    <div class="flex justify-center space-x-4">
+      <button id="get-dragon-fact-button">Get Random Dragon Fact</button>
+    </div>
+
+    <script>
+      const dragonFactContainer = document.getElementById(
+        "dragon-fact-container"
+      );
+      const dragonFactText = document.getElementById("dragon-fact-text");
+      const getDragonFactButton = document.getElementById(
+        "get-dragon-fact-button"
+      );
+
+      const dragonFacts = [
+        "Dragons are often depicted as fire-breathing creatures.",
+        "In some cultures, dragons symbolize good luck and prosperity.",
+        "Dragons have appeared in mythology for thousands of years.",
+        "Some dragons are said to hoard vast treasures.",
+        "Different cultures have varying interpretations of dragons.",
+        "Dragons are a popular motif in fantasy literature.",
+        "The word 'dragon' comes from the Greek word 'drakon'.",
+        "Dragons are often associated with magic and mystery.",
+        "In some stories, dragons can fly at incredible speeds.",
+        "Dragons are formidable and powerful creatures.",
+        "Dragons have scales that are as hard as steel.",
+        "Many dragons are believed to live for centuries.",
+        "Dragons are sometimes depicted with multiple heads.",
+        "Dragons are known for their wisdom and intelligence.",
+        "Some dragons can communicate telepathically.",
+        "Dragons are often found in mountainous or watery regions.",
+      ];
+
+      getDragonFactButton.addEventListener("click", () => {
+        const randomIndex = Math.floor(Math.random() * dragonFacts.length);
+        const randomFact = dragonFacts[randomIndex];
+        dragonFactText.textContent = randomFact;
+        dragonFactContainer.classList.remove("hidden");
+      });
+    </script>
   </body>
 </html>

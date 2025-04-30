@@ -14,7 +14,7 @@ h4,
 h5,
 h6,
 p {
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 @font-face {
   font-family: Colonna MT Reg;
@@ -141,6 +141,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-family: Colonna MT Reg;
 }
 
 .Crystal img {
@@ -151,6 +152,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-family: Colonna MT Reg;
 }
 
 .Sophie img {
@@ -161,6 +163,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-family: Colonna MT Reg;
 }
 
 .Ccontent-holder {
@@ -296,4 +299,62 @@ nav {
   padding: 14px 16px;
   float: left;
   overflow: hidden;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(black, rgb(31, 31, 115));
+  color: white;
+  font-family: Colonna MT Reg;
+}
+
+.dragonone img {
+  padding-bottom: 15px;
+}
+.dragonone {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Colonna MT Reg;
+}
+
+.dragontwo img {
+  padding-bottom: 15px;
+}
+
+.dragontwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Colonna MT Reg;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(black, rgb(31, 31, 115));
+  color: white;
+  font-family: Colonna MT Reg;
+}
+
+.bigfootone img {
+  padding-bottom: 15px;
+}
+.bigfootone {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Colonna MT Reg;
+}
+.bigfoottwo img {
+  padding-bottom: 15px;
+}
+.bigfoottwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Colonna MT Reg;
 }

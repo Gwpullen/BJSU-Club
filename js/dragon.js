@@ -1,6 +1,5 @@
 let Length = [];
 
-Length[Western] = 35;
 Length[Oriental] = 123;
 Length[Wyvern] = 35;
 Length[Hydra] = 38;

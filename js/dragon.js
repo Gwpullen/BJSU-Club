@@ -10,6 +10,6 @@ console.log(Length[Oriental]);
 console.log(Length[Wyvern]);
 console.log(Length[Hydra]);
 
-let wingspan = ["Western", "Oriental", "Wyvern", "Hydra"];
+let dragons = ["Western", "Oriental", "Wyvern", "Hydra"];
 
-console.log(wingspan);
+console.log(dragons);

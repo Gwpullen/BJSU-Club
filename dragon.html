@@ -59,10 +59,12 @@
             contributed to the image of dragons. Over time, cultural
             interpretations shaped dragons into symbols of both chaos and power,
             evolving into the varied forms we know today.
+
           </p>
         </div>
         <div class="dragontwo">
           <p>
+            
             Dragons are prominent figures in global media, serving diverse
             roles. In Western media, they often appear as fearsome,
             fire-breathing creatures, like Smaug in The Hobbit, symbolizing
@@ -74,53 +76,15 @@
             meanings and fantastical elements.
           </p>
           <img src="CSS/images/dragontwo.jpg" alt="dragontwo" />
+
+          <p> <button onclick="showAlert()">Dragons Loose!!!</button>
+            <div id="dialog" title="Basic dialog">
+              <div id="imageContainer"></div></p>
+
         </div>
       </div>
     </div>
 
-    <div id="dragon-fact-container">
-      <h2>Dragon Fact:</h2>
-      <p id="dragon-fact-text"></p>
-    </div>
-
-    <div class="flex justify-center space-x-4">
-      <button id="get-dragon-fact-button">Get Random Dragon Fact</button>
-    </div>
-
-    <script>
-      const dragonFactContainer = document.getElementById(
-        "dragon-fact-container"
-      );
-      const dragonFactText = document.getElementById("dragon-fact-text");
-      const getDragonFactButton = document.getElementById(
-        "get-dragon-fact-button"
-      );
-
-      const dragonFacts = [
-        "Dragons are often depicted as fire-breathing creatures.",
-        "In some cultures, dragons symbolize good luck and prosperity.",
-        "Dragons have appeared in mythology for thousands of years.",
-        "Some dragons are said to hoard vast treasures.",
-        "Different cultures have varying interpretations of dragons.",
-        "Dragons are a popular motif in fantasy literature.",
-        "The word 'dragon' comes from the Greek word 'drakon'.",
-        "Dragons are often associated with magic and mystery.",
-        "In some stories, dragons can fly at incredible speeds.",
-        "Dragons are formidable and powerful creatures.",
-        "Dragons have scales that are as hard as steel.",
-        "Many dragons are believed to live for centuries.",
-        "Dragons are sometimes depicted with multiple heads.",
-        "Dragons are known for their wisdom and intelligence.",
-        "Some dragons can communicate telepathically.",
-        "Dragons are often found in mountainous or watery regions.",
-      ];
-
-      getDragonFactButton.addEventListener("click", () => {
-        const randomIndex = Math.floor(Math.random() * dragonFacts.length);
-        const randomFact = dragonFacts[randomIndex];
-        dragonFactText.textContent = randomFact;
-        dragonFactContainer.classList.remove("hidden");
-      });
-    </script>
+    <script src="js/dragon.js"></script>
   </body>
 </html>

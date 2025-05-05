@@ -1,14 +1,15 @@
 let Length = [];
 
-Length[Western] = 6;
-Length[Oriental] = 15;
-Length[Wyvern] = 8;
-Length[Hydra] = 8;
+Length[Western] = 35;
+Length[Oriental] = 123;
+Length[Wyvern] = 35;
+Length[Hydra] = 38;
 
-console.log(scores[0]);
-console.log(scores[1]);
-console.log(scores[2]);
+console.log(Length[Western]);
+console.log(Length[Oriental]);
+console.log(Length[Wyvern]);
+console.log(Length[Hydra]);
 
-let teams = ["Tigers", "Bisons", "Eagles", "Cobras"];
+let wingspan = ["Tigers", "Bisons", "Eagles", "Cobras"];
 
 console.log(teams);
